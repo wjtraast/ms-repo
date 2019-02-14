@@ -8,8 +8,7 @@ package com.maplesense.sandbox.game;
  */
 public class DiceRoller {
 
-    private Dice dieOne;
-    private Dice dieTwo;
+    private Dice dieOne, dieTwo;
 
     public int rollBothDice() {
         dieOne = Dice.randomDice();
